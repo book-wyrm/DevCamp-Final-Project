@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+.background-wrapper {
+    background-color: #3c3f48;
+    width: 100vw;
+    -webkit-box-shadow: inset -50px -39px 50px 50px #292929; 
+    box-shadow: inset -50px -39px 50px 50px #292929;}
+
+/* body */
+.body-wrapper {
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-wrapper > .left-column {
+    padding-left: 50px;
+}
+
+.body-wrapper > .left-column > .text-wrapper h1, p {
+    color: #b7bcbd;
+    font-weight: 100;
+}
+
+.body-wrapper > .left-column > .text-wrapper p {
+    font-size: 1.5em;
+}
+
+.body-wrapper > .left-column > .text-wrapper {
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.body-wrapper > .left-column > .button-wrapper > .button {
+    margin-bottom: 100px;
+    width: 200px;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.body-wrapper > .left-column > .button-wrapper > .button > #green-btn {
+    background-color: green;
+    color: black;
+}
+
+.body-wrapper > .left-column > .button-wrapper > .button > #black-btn {
+    background-color: black;
+    color: white;
+}
+
+.background-wrapper > .body-wrapper > .image-wrapper p {
+    margin-bottom: 0px;
+    font-size: 0.9em;
+}
+
+.background-wrapper > .body-wrapper > .image-wrapper a {
+    color: #78c4f0;
+}
+
+.body-wrapper > .image-wrapper img {
+    width: 600px;
+    height: 100%;
+}

@@ -1,0 +1,13 @@
+/* footer */
+.footer-wrapper > .footer-links-wrapper {
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.footer-links-wrapper > .use {
+    border: 2px;
+    border-color: lightgray;
+    background-color: #1fc47f;
+}

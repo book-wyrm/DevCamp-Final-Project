@@ -1,0 +1,95 @@
+.header-wrapper {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr;
+    align-content: center;
+}
+
+.logo-wrapper img {
+    height: 50px;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.explore-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.explore-wrapper > .explore h1 {
+    color: yellow;
+    font-size: 0.8em;
+}
+
+.explore-wrapper > .link-wrapper {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-wrapper > .link-wrapper > .nav-link {
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+}
+
+.explore-wrapper > .link-wrapper > .nav-link a {
+    color: white;
+}
+
+.explore-wrapper > .link-wrapper > .nav-link a:focus {
+    color: lightgray;
+}
+
+.explore-wrapper > .link-wrapper > .nav-link > .spark a, i {
+    color: grey;
+    font-weight: 5;
+}
+
+/* .explore-wrapper > .link-wrapper > .nav-link a:hover {
+    color: white;
+    letter-spacing: 1px;
+} */
+
+.header-wrapper > .button-wrapper {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+
+.header-wrapper > .button-wrapper > .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-wrapper > .button-wrapper > .btn button {
+    height: 39px;
+    width: 100%;
+    background-color: #3c3f48;
+    color: white;
+    border: solid #3c3f48 2px;
+    border-radius: 2px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.header-wrapper > .button-wrapper > .btn > #search {
+    font-size: 1.4em;
+    color: dimgray;
+    background-color: transparent;
+    border: none;
+}
+
+.header-wrapper > .button-wrapper > .btn > #search btn {
+    margin-right: 5px;
+    margin-left: 5px;
+}

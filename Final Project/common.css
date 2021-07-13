@@ -1,0 +1,10 @@
+h1, h2, h3, p, a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+.spacer90 {
+    height: 90px;
+}
